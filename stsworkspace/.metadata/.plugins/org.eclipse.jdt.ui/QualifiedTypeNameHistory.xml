@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="designpatternproj.Circle"/>
+<fullyQualifiedTypeName name="designpatternproj.Rectangle"/>
+<fullyQualifiedTypeName name="designpatternproj.Square"/>
+<fullyQualifiedTypeName name="designpatternproj.ColorFactory"/>
+<fullyQualifiedTypeName name="designpatternproj.ShapeFactory"/>
+<fullyQualifiedTypeName name="designpatternproj.AbstractFactory"/>
+<fullyQualifiedTypeName name="designpatternproj.FactoryProducer"/>
+</qualifiedTypeNameHistroy>

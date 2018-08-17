@@ -1,0 +1,21 @@
+[2018-07-26T16:11:45.770-0530][gc,heap] Heap region size: 1M
+[2018-07-26T16:11:45.779-0530][gc     ] Using G1
+[2018-07-26T16:11:45.779-0530][gc,heap,coops] Heap address: 0x00000007a0000000, size: 512 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+[2018-07-26T16:12:28.632-0530][gc,start     ] GC(0) Pause Young (G1 Evacuation Pause)
+[2018-07-26T16:12:28.632-0530][gc,task      ] GC(0) Using 4 workers of 4 for evacuation
+[2018-07-26T16:12:28.648-0530][gc,phases    ] GC(0)   Pre Evacuate Collection Set: 0.0ms
+[2018-07-26T16:12:28.648-0530][gc,phases    ] GC(0)   Evacuate Collection Set: 15.4ms
+[2018-07-26T16:12:28.648-0530][gc,phases    ] GC(0)   Post Evacuate Collection Set: 0.5ms
+[2018-07-26T16:12:28.648-0530][gc,phases    ] GC(0)   Other: 0.5ms
+[2018-07-26T16:12:28.648-0530][gc,heap      ] GC(0) Eden regions: 25->0(21)
+[2018-07-26T16:12:28.648-0530][gc,heap      ] GC(0) Survivor regions: 0->4(4)
+[2018-07-26T16:12:28.648-0530][gc,heap      ] GC(0) Old regions: 0->3
+[2018-07-26T16:12:28.648-0530][gc,heap      ] GC(0) Humongous regions: 1->1
+[2018-07-26T16:12:28.648-0530][gc,metaspace ] GC(0) Metaspace: 15139K->15139K(1062912K)
+[2018-07-26T16:12:28.648-0530][gc           ] GC(0) Pause Young (G1 Evacuation Pause) 26M->7M(512M) 16.621ms
+[2018-07-26T16:12:28.649-0530][gc,cpu       ] GC(0) User=0.03s Sys=0.01s Real=0.01s
+[2018-07-26T17:29:33.546-0530][gc,heap,exit ] Heap
+[2018-07-26T17:29:33.546-0530][gc,heap,exit ]  garbage-first heap   total 524288K, used 22798K [0x00000007a0000000, 0x00000007c0000000)
+[2018-07-26T17:29:33.546-0530][gc,heap,exit ]   region size 1024K, 20 young (20480K), 4 survivors (4096K)
+[2018-07-26T17:29:33.546-0530][gc,heap,exit ]  Metaspace       used 15224K, capacity 15549K, committed 15744K, reserved 1062912K
+[2018-07-26T17:29:33.546-0530][gc,heap,exit ]   class space    used 1465K, capacity 1589K, committed 1664K, reserved 1048576K
