@@ -1,3 +1,22 @@
+firstin terminal
+open -t .bash_profile
+
+in .bash_profile
+//related to cassandra
+export PATH=$PATH:/Users/rupa.j/Desktop/apache-cassandra-3.11.2/bin
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+
+
+//related to others
+export MONGO_PATH=/usr/local/mongodb
+export PATH=$PATH:$MONGO_PATH/bin
+
+# added by Anaconda3 5.2.0 installer
+#export PATH="/anaconda3/bin:$PATH"
+
+export PATH=${PATH}:/usr/local/mysql/bin/
+
+
 create keyspace notebooks WITH replication={'class':'SimpleStrategy', 'replication_factor':1};
 
 use notebooks;
