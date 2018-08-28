@@ -1,6 +1,6 @@
 firstin terminal
 open -t .bash_profile
-
+source .bash_profile.  //for compiling .bash_profile
 in .bash_profile
 //related to cassandra
 export PATH=$PATH:/Users/rupa.j/Desktop/apache-cassandra-3.11.2/bin
