@@ -16,6 +16,10 @@ export PATH=$PATH:$MONGO_PATH/bin
 
 export PATH=${PATH}:/usr/local/mysql/bin/
 
+//then in another terminal
+cassandra
+//in another
+cqlsh
 
 create keyspace notebooks WITH replication={'class':'SimpleStrategy', 'replication_factor':1};
 
